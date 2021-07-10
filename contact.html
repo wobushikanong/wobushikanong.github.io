@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+
+<title>联系我们-企业站（模板编号：A00331）</title>
+
+<meta name="description" content="联系我们-" />
+
+<meta name="keywords" content="联系我们,企业站（模板编号：A00331）" />
+
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"> 
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+<meta name="format-detection" content="telephone=no" />
+
+
+<script src="../js1.sendong.com/mobile/jquery-1.10.2.min.js" type="text/javascript"></script>
+
+
+<link id="css-full" onload="this.state=1" href="../css1.sendong.com/mobile/default/common/conmes.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="static/js/library/lazyload/jquery.lazyload.js@v=1.93"></script>
+<script type="text/javascript">
+		$(function() {
+			$("img.lazyload").lazyload({failure_limit:200, effect:"fadeIn"});
+		});
+</script>
+
+</head>
+<body >
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#window-button").click(function() {
+		if ($("#window-pannel").css("display") == "none") {
+			$("#window-pannel").show();
+		} else {
+			$("#window-pannel").hide();
+		}
+    });
+	$("#zh_vai_id").click(function(){
+		$("#window-tbles").hide();
+		$("#comes_naves_id").show();
+	});
+	
+});
+</script>
+<header class="c-nav">
+	<div class="c-nav-w">
+		<div class="c-nav-s">
+			<a class="c-btn c-btn-aw" href="javascript:void(0);" onClick="window.history.go(-1);" >返回</a>
+		</div>
+		<div class="c-nav-c">
+			<span class="omit"></span>
+		</div>
+		<div class="c-nav-e">
+           <a href="javascript:void(0)" id="window-button"  class="common-a-tab"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
+		</div>
+	</div>
+</header>
+
+<div class="common-window-tab"  id="window-pannel" style="display:none;">
+	<div class="common-tbl-type" id="window-tbles">
+	<a href="default.htm" class="new-tbl-cell">
+		<span class="icon">首页</span>
+		<p style="color:#6e6e6e;">首页</p>
+	</a>
+	<a href="javascript:void(0)" class="new-tbl-cell" id="zh_vai_id">
+		<span class="icon2">搜索</span>
+		<p style="color:#6e6e6e;">站内搜索</p>
+	</a>
+	<a href="order/cart.php" class="new-tbl-cell">
+		<span class="icon3">购物车</span>
+		<p style="color:#6e6e6e;">购物车</p>
+	</a>
+	<a href="account/mobile_center.php" class="new-tbl-cell">
+		<span class="icon4">用户中心</span>
+		<p style="color:#6e6e6e;">用户中心</p>
+	</a>
+	</div>
+	<div class="common-window-tab" id="comes_naves_id" style=" display:none">
+		<div class="common_navie_es">
+			<form action="/search.php" method="get">
+			<input type="text" name="s"  value="" class="sDt_head_nav_com" id="search_text">
+			<input type="submit" class="commin_ndes_ved" id="bmint_souid" value="搜索">
+			</form>
+		</div>
+	</div>
+</div><link href="../css1.sendong.com/mobile/default/default/style.css" rel="stylesheet" type="text/css"/><style type='text/css'>
+.msDmt_clsere_img {
+	overflow:hidden;
+	position: relative;
+}
+.msDmt_clsere_img img {
+	max-width: 100%;
+}
+
+</style>
+
+<div style="clear:both"></div>
+<section class="sDt_content">
+	<div style="overflow:hidden;height:34px">
+		
+	</div>
+	
+	<div class="msDmt_new-search">
+		<ul class="msDmt_about">
+			<li class="msDmt_li_bordes msDmt_clsere_img"> 公司名称：智能建站网络科技有限公司<br />
+联系电话：(86)20-88886888<br />
+传真号码：(86)20-88886888<br />
+邮箱地址：email@email.com<br />
+公司地址：广东省广州市天河区<br /></li>
+			<li class="msDmt_li_bordes">公司地图</li>
+        </ul>
+        		<style>
+#m-baidu-map{height:400px;margin:20px 10px;}
+#m-baidu-map img{max-width:inherit;}
+.m-map-detail-box h2{margin:0 0 7px 0;padding:0;}
+.m-map-detail-box img{float:right;margin:0px 0px 0px 4px;width:120px;height:80px;}
+</style>
+<script src="../api.map.baidu.com/api@v=2.0&ak=2Ob1Cq4Ox2VLz1Dz1SHoHyjhECGsNWPr"></script>
+<div id="m-baidu-map"></div>        
+<script type="text/javascript">
+// 创建地图
+var map = new BMap.Map("m-baidu-map");
+// 创建需要显示信息框
+var mapBoxShow = '<p title="智能建站网络科技有限公司" style="width:210px;display:block;font:bold 14px/16px arial,simsun,sans-serif;margin-bottom:5px;color:#cc5522;white-space:nowrap;overflow:hidden">智能建站网络科技有限公司</p>' + 
+                "<p style='padding-right:10px;width:220px;word-break: break-all;'>地址：广东省广州市天河区</p>" +
+                "<p style='padding-right:10px;width:220px;word-break: break-all;'>电话：(86)20-88886888</p>" +
+                "" +
+                "</div>";
+// 增加左侧控制条
+map.addControl(new BMap.NavigationControl());
+
+
+// 编写自定义函数,创建标注
+function addMarker(point, content){
+  // 创建标注
+  var marker = new BMap.Marker(point);
+  map.addOverlay(marker);
+  var infoWindow = new BMap.InfoWindow(content);
+  //开启信息窗口
+  map.openInfoWindow(infoWindow,point); 
+  marker.addEventListener("click", function(){          
+       this.openInfoWindow(infoWindow);
+       //图片加载完毕重绘infowindow
+       document.getElementById('imgDemo').onload = function (){
+           infoWindow.redraw();
+       }
+    });
+}
+
+
+var myLocalsearch = new BMap.LocalSearch(
+    map,
+    {
+        onSearchComplete: function(results){
+            var poi = results.getPoi(0);
+            map.centerAndZoom(poi.point, 13);
+            var user_marker = new BMap.Marker(poi.point);
+            map.addOverlay(user_marker); 
+            addMarker(poi.point, mapBoxShow);
+        }
+    }
+);
+myLocalsearch.search('广东省广州市天河区');
+</script>
+			</div>
+</section>
+<div style="clear:both"></div>
+<div  class="fooet_blrom">
+	<footer class="footer c-footer ">
+		<section class="footer-t c-footer-t">
+			<p class="user-info c-user-info">
+				<span><a href="account/shop_signup.php">注册</a><a href="account/shop_login.php">登录</a></span>			</p>
+			<p class="gotop c-gotop"><a id="J_GoTop" href="javascript:void(0);">top<b> </b></a></p>
+		</section>
+		<nav class="footer-l c-footer-l">智能建站网络科技有限公司&nbsp;&nbsp;&nbsp;京ICP备04000001号</nav>
+				
+	</footer>
+</div>
+
+
+<script  type="text/javascript">
+	$(document).ready(function() {        
+		$('#J_GoTop').click(function(){  
+			$('html, body').animate({scrollTop:0}, 'slow');  
+			return false;  
+		});  
+	});
+</script>
+
+
+
+
+</body>
+</html>
