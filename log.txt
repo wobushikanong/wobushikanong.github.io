@@ -1,0 +1,1 @@
+SELECT * FROM `t_fill` WHERE tradeno='Apay1438179140'update t_user  set rmb=rmb+1.00 where id=276UPDATE t_fill SET `status`=1 where tradeno='Apay1438179140'
